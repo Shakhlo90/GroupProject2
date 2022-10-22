@@ -1,12 +1,5 @@
 package TasksTotal5;
 
-interface Shape {
-    void calculateArea();
-
-    void calculatePerimeter();
-
-}
-
 public class Task1 {
     /* Create an Interface 'Shape' with undefined
         methods as calculateArea and
@@ -22,6 +15,14 @@ public class Task1 {
         }
     }
 }
+interface Shape {
+    void calculateArea();
+
+    void calculatePerimeter();
+
+}
+
+
 
 class Circle implements Shape {
 
